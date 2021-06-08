@@ -13,9 +13,13 @@ namespace PositiveorNegative
             {
                 Console.WriteLine(a.ToString()+ "  is negative" );
             }
-            else
+            else if(a>0)
             {
                 Console.WriteLine(a.ToString()+" is positive");
+            }
+            else 
+            {
+                Console.WriteLine(a.ToString() + " is neither positive nor negative");
             }
             
         }
